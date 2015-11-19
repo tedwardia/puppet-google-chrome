@@ -1,4 +1,4 @@
-FROM opensuse:latest
+FROM opensuse:13.2
 
 RUN zypper install -y git puppet ca-certificates* tar && \
     git clone -b fedora https://github.com/jamesnetherton/puppet-google-chrome.git /etc/puppet/modules/google_chrome && \
