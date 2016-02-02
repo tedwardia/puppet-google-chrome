@@ -16,7 +16,7 @@ class google_chrome::config() inherits google_chrome::params {
         release  => 'stable',
         key      => {
           id     => '4CCA1EAF950CEE4AB83976DCA040830F7FAC5991',
-          source => 'http://dl-ssl.google.com/linux/linux_signing_key.pub'
+          source => 'https://dl-ssl.google.com/linux/linux_signing_key.pub'
         },
         repos    => 'main',
         include  => {
